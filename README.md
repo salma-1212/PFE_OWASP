@@ -39,6 +39,7 @@ php -S localhost:8000
 # → http://localhost:8000/website_v0/login.html
 ```
 Test accounts (fictitious): `admin/admin`, `antoine/antoine`, `user1/pass1`.
+Early commits contained lab-only credentials; they have been rotated and replaced by a least-privilege configuration.
 
 ## Tech stack
 PHP · MySQL · HTML/CSS · nmap
