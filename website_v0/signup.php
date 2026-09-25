@@ -1,4 +1,5 @@
 <?php
+require_once __DIR__ . '/../config.php';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Récupérer les données du formulaire
     $username = $_POST['username'];
@@ -11,10 +12,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 function createUser($username, $password, $email) {
     // Configuration de la base de données
-    $servername = "localhost";
-    $db_username = "root"; // Remplacez par votre nom d'utilisateur MySQL
-    $db_password = "toor"; // Remplacez par votre mot de passe MySQL
-    $dbname = "user_auth"; // Nom de votre base de données
+    $servername = DB_HOST;
+    $db_username = DB_USER;
+    $db_password = DB_PASS;
+    $dbname = DB_NAME;
 
     // Créer la connexion
     $conn = new mysqli($servername, $db_username, $db_password, $dbname);

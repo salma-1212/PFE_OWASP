@@ -1,11 +1,11 @@
 <?php
 
 // Connexion à la base de données
-//$pdo = new PDO('mysql:host=localhost;dbname=user_auth', 'root', 'toor');
-$servername = "localhost";
-$username = "root";
-$password = "toor";
-$dbname = "user_auth";
+require_once __DIR__ . '/../config.php';
+$servername = DB_HOST;
+$username = DB_USER;
+$password = DB_PASS;
+$dbname = DB_NAME;
 
 //$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 try {

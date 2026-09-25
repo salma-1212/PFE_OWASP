@@ -1,11 +1,12 @@
 <?php
+require_once __DIR__ . '/../config.php';
 session_start();
 
 // Configuration de la base de données
-$servername = "localhost";
-$username = "root"; // Remplacez par votre nom d'utilisateur MySQL
-$password = "toor"; // Remplacez par votre mot de passe MySQL
-$dbname = "user_auth"; // Nom de votre base de données
+$servername = DB_HOST;
+$username = DB_USER;
+$password = DB_PASS;
+$dbname = DB_NAME;
 
 // Créer la connexion
 $conn = new mysqli($servername, $username, $password, $dbname);

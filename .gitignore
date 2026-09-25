@@ -1,0 +1,5 @@
+config.local.php
+.DS_Store
+*.save
+*.sql.bak
+vulnerable_website/db.sql
