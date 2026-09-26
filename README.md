@@ -5,7 +5,7 @@
 ⚠️ **Warning — intentionally vulnerable application.** For education and local lab use only. Never deploy it on a public server.
 
 ## Overview
-Final-year project (MSc Cybersecurity, 2024–2025). It is a small PHP/MySQL user-management app built in two versions, used to **demonstrate, exploit and remediate OWASP Top 10 (2021) vulnerabilities**:
+Final-year project (MSc Cybersecurity, 2024–2025). It is a small PHP/MySQL e-commerce website with user management, built in two versions, used to **demonstrate, exploit and remediate OWASP Top 10 (2021) vulnerabilities**:
 
 | Folder | Purpose |
 |---|---|
@@ -51,7 +51,7 @@ PHP · MySQL · HTML/CSS · nmap
 ⚠️ **Application volontairement vulnérable.** Usage pédagogique en local uniquement, ne jamais la déployer sur un serveur public.
 
 ## Présentation
-Projet de fin d'études (MS Cybersécurité, 2024–2025). Une petite application PHP/MySQL de gestion d'utilisateurs, développée en deux versions pour **démontrer, exploiter puis corriger les vulnérabilités du Top 10 OWASP 2021** :
+Projet de fin d'études (MS Cybersécurité, 2024–2025). Un petit site e-commerce PHP/MySQL avec gestion des utilisateurs, développé en deux versions pour **démontrer, exploiter puis corriger les vulnérabilités du Top 10 OWASP 2021** :
 
 - `vulnerable_website/` : version volontairement non sécurisée (injection SQL, contrôle d'accès défaillant, mots de passe en clair…)
 - `website_v0/` : version durcie (requêtes préparées, encodage des sorties, contrôle des rôles, en-têtes de sécurité)
